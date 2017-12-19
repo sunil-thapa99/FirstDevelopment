@@ -1,0 +1,83 @@
+body{
+	background: #000000;
+}
+header{
+	overflow: hidden;
+}
+header h1{
+	background: url(valor.jpg) no-repeat;
+	width: 320px;
+	height: 80px;
+	text-indent: -9999px;
+	margin: 10px 10px 22px;
+	float: left;
+}
+nav{
+	float: right;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-transform: uppercase;
+}
+.comtainer_24{
+	margin-top: 10px;
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+	color: #858585;
+}
+h1, h2{
+	letter-spacing: -1px;
+}
+h2{
+	font-size: 26px;
+	text-transform:uppercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 20px;
+	margin-bottom:  15px;
+	line-height: 1px;
+	color: #858585;
+}
+a{
+	color: #858585;
+	text-decoration:none; 
+}
+a:hover{
+	text-decoration: underline;
+	text-shadow: 0 5px 10px red;
+	cursor: pointer;
+}
+.button{
+	background-color: #242324;
+	padding: 6px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.button:hover{
+	background: black;
+	color: white;
+	text-shadow: 0 5px 10px red;
+}
+.banner{
+	background: url(4.jpg) no-repeat;
+	width: 550px;
+	height: 200px;
+	margin-right: 0px;
+	clear: both;
+	text-indent: -9999px;
+}
+.banner h3{
+	color: white;
+	font-size:28px;
+
+}
+.callout{
+	background: url(3.jpg) no-repeat;
+	height: 200px;
+	margin-left: 0px;
+}

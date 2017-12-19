@@ -1,0 +1,199 @@
+body{
+	background: #000000;
+}
+header{
+	overflow: hidden;
+}
+header h1{
+	background: url(header.jpg) no-repeat;
+	width: 112px;
+	height: 80px;
+	text-indent: -9999px;
+	margin: 10px 10px 22px;
+	float: left;
+}
+nav{
+	float: right;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-transform: uppercase;
+}
+.comtainer_24{
+	margin-top: 10px;
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+	color: #858585;
+}
+h1, h2{
+	letter-spacing: -1px;
+}
+h2{
+	font-size: 26px;
+	text-transform:uppercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 20px;
+	margin-bottom:  15px;
+	line-height: 1px;
+	color: #858585;
+}
+a{
+	color: #858585;
+	text-decoration:none; 
+}
+a:hover{
+	text-decoration: underline;
+	text-shadow: 0 5px 10px red;
+	cursor: pointer;
+}
+.button{
+	background-color: #242324;
+	padding: 6px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.button:hover{
+	background: black;
+	color: white;
+	text-shadow: 0 5px 10px red;
+}
+
+.callin{
+	background: url(valor.jpg) no-repeat;
+	width: 310px;
+	height: 200px;
+	clear: both;
+	text-indent: -9999px;
+}
+.banner{
+	background: url(5.jpg) no-repeat;
+	width: 270px;
+	height: 200px;
+}
+.callin h3{
+	color: white;
+	font-size:28px;
+
+}
+.callout{
+	background: url(6.jpg) no-repeat;
+	width: 350px;
+	height: 200px;
+}
+#out{
+	width: 700px;
+	overflow: hidden;
+	margin: auto; 
+}
+#in{
+	position: relative;
+	width: 3500px;
+	animation-name: sunil;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+
+}
+#in img{
+	float: left;
+}
+@keyframes sunil{
+	0%{
+		left: 0px;	
+	}
+	16%{
+		left: 0px;
+	}
+	20%{
+		left: -700px;
+	}
+	36%{
+		left: -700px;
+	}
+	40%{
+		left: -1400px;
+	}
+	56%{
+		left: -1400px;
+	}
+	60%{
+		left: -2100px;
+	}
+	76%{
+		left: -2100px;
+	}
+	80%{
+		left: -2800px;
+	}
+	96%{
+		left: -2800px;
+	}
+	99%{
+		left: -3500px;
+	}
+	100%{
+		left: 0px;
+	}
+
+
+}
+.main{
+	margin-top: 20px;
+}
+blockquote, blockquote p{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #858585;
+}
+.main blockquote p{
+	padding-left: 30px;
+}
+.main blockquote p:first-child:before{
+	content: '“';
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+.main blockquote p:last-child:after{
+	content: '”';
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+	float: right;
+}
+.pictures{
+	background: url(dell.jpg) no-repeat;
+	width: 340px;
+	height: 200px;
+	text-indent: -9999px;
+}
+.scr{
+	background: url(scr.png) no-repeat;
+	width: 345px;
+	height: 250px;
+	text-indent: -9999px;
+}
+.main_1{
+	margin-top: 20px;
+}
+form{
+	float: left;
+}
+label{
+	display: black;
+	color: #858585;
+}
+#comments{
+	width: 450px;
+	height: 300px;
+}
+footer{
+	clear: both;
+	float: right;
+}

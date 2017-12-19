@@ -1,0 +1,39 @@
+#out{
+	width: 700px;
+	overflow: hidden;
+	margin: auto;
+}
+#in{
+	position: relative;
+	width: 2100px;
+	animation-name: sunil;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+
+}
+#in img{
+	float: left;
+}
+@keyframes sunil{
+	0%{
+		left: 0px;	
+	}
+	26.67%{
+		left: 0px;
+	}
+	33.33%{
+		left: -700px;
+	}
+	60%{
+		left: -700px;
+	}
+	66.67%{
+		left: -1400px;
+	}
+	83.33%{
+		left: -1400px;
+	}
+	100%{
+		left: -2100px;
+	}
+}
